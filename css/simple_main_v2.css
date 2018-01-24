@@ -7,9 +7,9 @@
   --minH: 360px;
   --fontDark: #444;
   --fontGray: #999;
-  --fontLight: #fafafa;
-  --themeColor: rgba(4, 128, 170, 0.75);
-  --ctaColor: #d58508;
+	--fontLight: #fafafa;
+	--themeColor: rgba(4, 128, 170, 0.75);
+	--ctaColor: #d58508;
   --mediaWith: 768px;
 }
 
@@ -26,9 +26,9 @@ body {
   background-image: linear-gradient(
       to bottom,
       rgba(82, 106, 138, 0.5),
-      rgba(20, 15, 15, 0.75)
+      rgba(20, 15, 15, 0.5)
     ),
-    url("https://cdn.pixabay.com/photo/2016/06/01/22/58/fort-lauderdale-1429913_960_720.jpg");
+    url("https://images.unsplash.com/photo-1502905704466-2690947baeee?auto=format&fit=crop&w=1349&q=80");
 
   background-size: cover;
   background-position: center;
@@ -42,8 +42,8 @@ body {
   /* background: rgba(180, 180, 180, 0.5); */
 }
 .cta-phone {
-  color: var(--fontLight);
-  text-decoration: none;
+	color: var(--fontLight);
+	text-decoration: none;
 }
 
 .content {
@@ -97,13 +97,13 @@ body {
   grid-area: content;
   display: grid;
   grid-gap: 20px;
-  align-items: center;
-  justify-content: center;
+	align-items: center;
+	justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(120px, 200px));
 }
 @media screen and (max-width: var(--mediaWith)) {
   .logos-content {
-    grid-template-rows: 1fr;
+		grid-template-rows: 1fr;
   }
 }
 .feature {
@@ -131,16 +131,16 @@ body {
   background-color: var(--themeColor);
   color: var(--fontLight);
 }
-.image-bg {
+.skyline-bg {
   color: var(--fontLight);
   background-image: linear-gradient(
       to bottom,
-      rgba(48, 48, 48, 0.75),
-      rgba(187, 187, 187, 0.5)
+      rgba(83, 83, 83, 0.5),
+      rgba(187, 187, 187, 0.75)
     ),
-    url("https://images.unsplash.com/photo-1506604072258-89e4fe0280ce");
+    url("https://images.unsplash.com/photo-1442551382982-e59a4efb3c86");
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
 }
 .quote {
   font-size: 24px;
@@ -172,14 +172,14 @@ body {
 form {
 }
 .form-card {
-  background-color: rgba(4, 128, 170, 0.75);
-  padding: 15px;
-  border-radius: 4px;
-  max-width: 320px;
-  margin: 0 auto;
+	background-color: rgba(4, 128, 170, 0.75);
+	padding: 15px;
+	border-radius: 4px;
+	max-width: 320px;
+	margin: 0 auto;
 }
 .form-field > label {
-  display: none;
+	display: none;
 }
 label.field-label {
   color: var(--fontDark);
@@ -192,10 +192,10 @@ input:focus {
   outline-color: var(--fontLight);
 }
 .submit > input {
-  background-color: var(--ctaColor);
-  padding: 5px 5px;
-  width: 263px;
-  color: var(--fontLight);
-  border-radius: 2px;
-  border: 0px solid #000;
+	background-color: var(--ctaColor);
+	padding: 5px 5px;
+	width: 263px;
+	color: var(--fontLight);
+	border-radius: 2px;
+	border: 0px solid #000;
 }
