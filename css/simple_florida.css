@@ -135,12 +135,12 @@ body {
   color: var(--fontLight);
   background-image: linear-gradient(
       to bottom,
-      rgba(48, 48, 48, 0.75),
-      rgba(187, 187, 187, 0.5)
+      rgba(255, 255, 255, 0.25),
+      rgba(187, 187, 187, 0.15)
     ),
-    url("https://images.unsplash.com/photo-1506604072258-89e4fe0280ce");
+    url("http://go.askglobalwealth.com/l/481241/2018-01-26/7cq4g/481241/20535/florida_miami.png");
   background-size: cover;
-  background-position: top;
+  background-position: center;
 }
 .quote {
   font-size: 24px;
