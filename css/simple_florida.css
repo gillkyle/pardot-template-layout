@@ -1,5 +1,6 @@
 * {
-  font-family: "Spectral", serif;
+  /* font-family: "Spectral", serif; */
+  font-family: "Sarala", serif;
   font-size: 16px;
 }
 
@@ -123,7 +124,7 @@ body {
 .footer {
   grid-area: Footer;
   min-height: var(--minH);
-  background: linear-gradient(245deg, #515858, #313131);
+  background: linear-gradient(245deg, #0a435f, #3795c4);
   color: var(--fontLight);
 }
 
